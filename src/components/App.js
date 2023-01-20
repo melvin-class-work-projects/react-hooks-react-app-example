@@ -5,7 +5,7 @@ import TestComponent from "./TestComponent";
 // Add your code own within the return statement
 function App() {
   return (
-    <div className="video">
+    <div className="App">
       <h1>{"Now"}</h1>
       <p className="App-intro">
         In React apps, we write JSX - it looks like HTML, and uses a lot of HTML
@@ -14,6 +14,7 @@ function App() {
         self-contained chunks of JSX.
       </p>
       <ExampleComponent />
+      <TestComponent/>
     </div>
   );
 }
